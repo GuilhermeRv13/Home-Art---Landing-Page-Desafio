@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+#menu-superior{
+    background-color: #303030;
+}
+#titulo-superior-cebecalho{
+    margin: 0px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 35px;    
+    padding-top: 110px;
+}
+#texto-inferior-cabecalho{
+    margin-left: 35px;
+    margin-top: 10px;
+    color: white;
+    padding-bottom: 100px;
+    font-size: 15x;
+    
+   
+}
+#menu-informacional{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+  
+}
+.textoinformativo{
+    display: grid;
+    align-items:flex-end;
+    margin: 50px 0px 50px 100px;
+    
+}
+.textoinformativoinferior{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+#secaosala{
+    margin-left: 815px;
+    margin-top: 25px;
+    padding-bottom: 50px;
+}
+#textosala{
+    margin-top: -415px;
+    margin-left: 150px;
+}
+#formulario{
+   color: #303030;
+   margin-top: 220px;
+  text-align: center;
+  background-color: #303030;
+}
+#tituloformulario{
+    color:white;
+    margin-bottom: 20px;
+    padding-top: 20px;    
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 15pX;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+button{
+    background-color: #C07212;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    width: 250px;
+    color:#eaece5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+button:hover{
+    background-color: #f7a037;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.8s;
+    box-shadow: 0px 15px 20px #6d3f07;
+}
